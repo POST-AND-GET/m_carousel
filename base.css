@@ -1,5 +1,5 @@
 .carousel{position: relative;width: 260px;height: 100px;margin: 0 auto;margin-top: 100px;}
-.show{width: 160px;height: 100px;overflow:hidden;margin: 0 auto;}
+#show{width: 160px;height: 100px;overflow:hidden;margin: 0 auto;}
 #pre{width: 50px;height: 100px;;background: #94f3cd;position: absolute;}
 #next{width: 50px;height: 100px;;background: #f34c7e;position: absolute;right: 0}
 #wrap{width: 10000px;height: auto;margin: 0 auto;transform:translateX(0)}
