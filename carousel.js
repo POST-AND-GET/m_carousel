@@ -26,15 +26,9 @@
         wrap.insertBefore(li,pic[0]);
         wrap.style.transform = "translateX("+(-imgW)+"px)";
         wrap.style.webkitTransition = "none";
-setTimeout(function(){
-    wrap.style.transform = "translateX(0)";
-    wrap.style.webkitTransition = "all 1s cubic-bezier(1,1,1,1) 0";
-},100)
-
-
-
-
-
-
+    setTimeout(function(){
+        wrap.style.transform = "translateX(0)";
+        wrap.style.webkitTransition = "all 1s cubic-bezier(1,1,1,1) 0";
+    },100)
     },false)
 })();
